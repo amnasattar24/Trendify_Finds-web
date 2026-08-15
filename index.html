@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trendify Finds - Curated Trends & Verified Amazon Deals</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Top Announcement Bar -->
+    <div class="announcement-bar">
+        <p><i class="fa-solid fa-bolt"></i> Verified Amazon Associate Store | Handpicked Daily Trends & Top Discounts</p>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-fire-flame-curved"></i></span>
+                <span class="logo-text">Trendify<span>Finds</span></span>
+            </a>
+
+            <!-- Navigation Tabs for Main Pages -->
+            <nav class="nav-tabs">
+                <button class="nav-btn active" data-page="fashion"><i class="fa-solid fa-shirt"></i> Fashion & Lifestyle</button>
+                <button class="nav-btn" data-page="tech"><i class="fa-solid fa-laptop"></i> Tech Products</button>
+                <button class="nav-btn" data-page="gaming"><i class="fa-solid fa-gamepad"></i> Gaming</button>
+                <button class="nav-btn" data-page="fitness"><i class="fa-solid fa-dumbbell"></i> Fitness</button>
+            </nav>
+
+            <!-- Search Bar -->
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" id="searchInput" placeholder="Search products, brands, tags...">
+            </div>
+        </div>
+    </header>
+
+    <!-- Dynamic Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-badge" id="heroTagline">
+                <i class="fa-solid fa-circle-check"></i> Style for everyone
+            </div>
+            <h1 class="hero-title" id="heroTitle">
+                Elevate your everyday <span class="highlight" id="heroHighlight">style</span>
+            </h1>
+            <p class="hero-description" id="heroDescription">
+                From everyday essentials to statement pieces — discover top-rated picks across fashion, beauty, and home decor.
+            </p>
+        </div>
+    </section>
+
+    <!-- Subcategories Filter Pills -->
+    <section class="categories-section">
+        <div class="container">
+            <div class="category-pills" id="categoryPills">
+                <!-- Dynamically injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Showcase Grid -->
+    <section class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title"><i class="fa-solid fa-sparkles"></i> Curated Products</h2>
+                <span class="products-count" id="productsCount">Showing 0 products</span>
+            </div>
+
+            <div class="product-grid" id="productGrid">
+                <!-- Products injected dynamically -->
+            </div>
+
+            <div class="no-results hidden" id="noResults">
+                <i class="fa-solid fa-box-open"></i>
+                <h3>No products found</h3>
+                <p>Try searching with another keyword or selecting a different category filter.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust & Value Proposition -->
+    <section class="trust-section">
+        <div class="container trust-grid">
+            <div class="trust-card">
+                <div class="trust-icon"><i class="fa-solid fa-circle-check"></i></div>
+                <h3>Curated Quality</h3>
+                <p>Every product is manually vetted based on customer reviews, ratings, and quality benchmarks.</p>
+            </div>
+            <div class="trust-card">
+                <div class="trust-icon"><i class="fa-brands fa-amazon"></i></div>
+                <h3>Official Amazon Links</h3>
+                <p>Shop safely and directly on Amazon with standard customer protections and fast shipping.</p>
+            </div>
+            <div class="trust-card">
+                <div class="trust-icon"><i class="fa-solid fa-tag"></i></div>
+                <h3>Best Verified Deals</h3>
+                <p>We continuously scan and list active discounts so you always grab the best value.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="logo">
+                    <span class="logo-icon"><i class="fa-solid fa-fire-flame-curved"></i></span>
+                    <span class="logo-text">Trendify<span>Finds</span></span>
+                </div>
+                <p>Your ultimate portal for viral, top-rated, and handpicked deals across Fashion, Tech, Gaming, and Fitness.</p>
+            </div>
+
+            <div class="footer-disclaimer">
+                <h4>Amazon Associate Disclosure</h4>
+                <p><strong>As an Amazon Associate, Trendify Finds earns from qualifying purchases.</strong> Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its affiliates.</p>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 Trendify Finds. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
