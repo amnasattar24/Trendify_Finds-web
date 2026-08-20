@@ -59,7 +59,7 @@ const PRODUCTS = [
     page: 'fashion',
     title: 'YIANNA Fajas Colombianas Shapewear for Women',
     description: 'Achieve a smooth, contoured silhouette with YIANNA Fajas Colombianas Shapewear, featuring targeted firm compression for waist and tummy sculpting.',
-    image: 'https://m.media-amazon.com/images/I/61a2FKd6pLL._AC_SY879_.jpg',
+    image: 'https://m.media-amazon.com/images/I/61a2FKd6pLL.jpg',
     price: 37.99,
     originalPrice: 42.99,
     rating: 4.5,
