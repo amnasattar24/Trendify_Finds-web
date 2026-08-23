@@ -6,7 +6,7 @@ const PAGES = [
     tagline: 'Style for everyone',
     heroTitle: 'Elevate your everyday',
     heroHighlight: 'style',
-    heroDescription: 'From everyday essentials to statement pieces — discover top-rated picks across fashion, beauty, and home decor.',
+    heroDescription: 'From everyday essentials to statement pieces — discover top-rated picks across fashion, beauty,Beast and home decor.',
     categories: ['All', 'Hair Products', 'Women Makeup', 'Skin Care', 'Women Dresses', 'Men Dresses', 'Home Decoration', 'MR Beast Lab', 'Kids Dresess', 'Women Undergarments',]
   },
   {
@@ -571,7 +571,7 @@ const PRODUCTS = [
     category: 'Kids Dresses',
     affiliateLink: 'https://a.co/d/07fFz3YA',
   },{
-    id: 'f7',
+    id: 'f8',
     page: 'fashion',
     title: 'Girl Maxi Dress',
     description: 'Elevate her wardrobe with this gorgeous Girl Maxi Dress—crafted from soft, breathable fabric with a flowing silhouette that brings effortless charm and comfort to parties, family events, or sunny days out!',
@@ -580,11 +580,11 @@ const PRODUCTS = [
     originalPrice: 36.99,
     rating: 4.5,
     reviews: 3254,
-    category: 'Kids Dresses',
+    category: 'Kids Dresess',
     affiliateLink: 'https://a.co/d/07fFz3YA',
   },
   {
-    id: 'f7',
+    id: 'f9',
     page: 'fashion',
     title: 'MR.BEAST Lab all products',
     description: 'Unleash your inner scientist with the complete MR.BEAST Lab Toy Collection—featuring action figures, squishy collectibles, mutators, and interactive experiment kits co-created with Moose Toys for high-energy unboxing fun!',
