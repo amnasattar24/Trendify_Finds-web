@@ -6,8 +6,8 @@ const PAGES = [
     tagline: 'Style for everyone',
     heroTitle: 'Elevate your everyday',
     heroHighlight: 'style',
-    heroDescription: 'From everyday essentials to statement pieces — discover top-rated picks across fashion, beauty,Beast and home decor.',
-    categories: ['All', 'Hair Products', 'Women Makeup', 'Skin Care', 'Women Dresses', 'Men Dresses', 'Home Decoration', 'MR Beast Lab', 'Kids Dresess', 'Women Undergarments',]
+    heroDescription: 'From everyday essentials to statement pieces — discover top-rated picks across fashion, beauty, and home decor.',
+    categories: ['All', 'Women Undergarments', 'Women Makeup', 'Skin Care', 'Women Dresses', 'Men Dresses', 'Hair Products', 'Home Decoration', 'MR Beast Lab', 'Kids Dresses']
   },
   {
     id: 'tech',
@@ -558,8 +558,9 @@ const PRODUCTS = [
     category: 'Women Makeup',
     affiliateLink: 'https://a.co/d/07kdaTZk',
   },
+
   {
-    id: 'f7',
+    id: 'f8',
     page: 'fashion',
     title: 'Girl Maxi Dress',
     description: 'Elevate her wardrobe with this gorgeous Girl Maxi Dress—crafted from soft, breathable fabric with a flowing silhouette that brings effortless charm and comfort to parties, family events, or sunny days out!',
@@ -570,19 +571,8 @@ const PRODUCTS = [
     reviews: 3254,
     category: 'Kids Dresses',
     affiliateLink: 'https://a.co/d/07fFz3YA',
-  },{
-    id: 'f8',
-    page: 'fashion',
-    title: 'Girl Maxi Dress',
-    description: 'Elevate her wardrobe with this gorgeous Girl Maxi Dress—crafted from soft, breathable fabric with a flowing silhouette that brings effortless charm and comfort to parties, family events, or sunny days out!',
-    image: 'https://m.media-amazon.com/images/I/61MX84YIaiL._AC_SY879_.jpg',
-    price: 26.99,
-    originalPrice: 36.99,
-    rating: 4.5,
-    reviews: 3254,
-    category: 'Kids Dresess',
-    affiliateLink: 'https://a.co/d/07fFz3YA',
   },
+  
   {
     id: 'f9',
     page: 'fashion',
@@ -591,7 +581,7 @@ const PRODUCTS = [
     image: 'https://canva.link/ihsj3dih6jkewfc',
     rating: 4.9,
     reviews: 43654,
-    category: 'MR.Beast Lab',
+    category: 'MR Beast Lab',
     affiliateLink: 'https://www.amazon.com/stores/MrBeastLab/page/014CEE25-218D-402D-9147-023CB9E503D6?lp_asin=B0DQ6HJFM5&ref_=cm_sw_r_ud_ast_store_76047CN6C0RHYG7T58JW&store_ref=bl_ast_dp_brandlogo_sto',
   },
 
