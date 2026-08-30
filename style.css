@@ -299,7 +299,7 @@ body {
     max-height: 100%;
     width: auto;
     height: auto;
-    object-fit: contain !important; /* Isse image cut nahi hogi, poori fit aayegi */
+    object-fit: cover !important; /* Isse image cut nahi hogi, poori fit aayegi */
 }
 
 /* .card-image {
