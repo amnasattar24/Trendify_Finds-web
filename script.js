@@ -7,7 +7,7 @@ const PAGES = [
     heroTitle: 'Elevate your everyday',
     heroHighlight: 'style',
     heroDescription: 'From everyday essentials to statement pieces — discover top-rated picks across fashion, beauty, and home decor.',
-    categories: ['All', 'Women Undergarments', 'Women Makeup', 'Skin Care', 'Women Dresses', 'Men Dresses', 'Hair Products', 'Home Decoration', 'MR Beast Lab', 'Kids Dresses','Couple Dresses']
+    categories: ['All', 'Women Undergarments', 'Women Makeup', 'Skin Care', 'Women Dresses', 'Men Dresses', 'Hair Products', 'Home Decoration', 'MR Beast Lab', 'Kids Dresses','Couple dresses']
   },
   {
     id: 'tech',
