@@ -25,7 +25,7 @@ const PAGES = [
     heroTitle: 'Build your dream',
     heroHighlight: 'gaming setup',
     heroDescription: 'Everything from pro-grade peripherals to ambient lighting — curated for gamers who want the best.',
-    categories: ['All', 'Mouse', 'Storage', 'Xbox Accessories', 'Desk Pads', 'PC Accessories', 'Chair', 'Merchandise', 'Collectables', 'Room Light', 'Games', 'Switch Accessories']
+    categories: ['All', 'Mouse', 'Monitors', 'Storage', 'Xbox Accessories', 'Desk Pads', 'PC Accessories', 'Chair', 'Merchandise', 'Collectables', 'Room Light', 'Games', 'Switch Accessories']
   },
   {
     id: 'fitness',
@@ -34,7 +34,7 @@ const PAGES = [
     heroTitle: 'Gear that moves',
     heroHighlight: 'with you',
     heroDescription: 'Weights, wearables, supplements, and outdoor gear — everything you need to hit your goals.',
-    categories: ['All', 'Weights', 'Travel', 'Machines', 'Compact', 'Supplements', 'Tracking Device', 'Outdoor', 'Accessories', 'Flexible Training', 'Water Bottles', 'Strength', 'Home Workout', 'CrossFit', 'Wearable', 'Equipment']
+    categories: ['All', 'Weights', 'Travel', 'Machines', 'Compact', 'Supplements', 'Tracking Device', 'Outdoor', 'Water Bottles', 'Strength', 'Home Workout', 'CrossFit']
   }
 ];
 
