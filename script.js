@@ -1211,7 +1211,7 @@ const PRODUCTS = [
     page: 'fashion',
     title: 'Couples Hawaiian Men Shirt and Women Vintage',
     description: 'Step out in timeless tropical style with this Couples Hawaiian Matching Outfit Set, featuring a classic button-down shirt for men and a vintage-inspired floral dress or shirt for women,',
-    image: 'https://pin.it/1ZP6lrLTu',
+    image: 'https://m.media-amazon.com/images/I/71CVWRyKe5L._AC_SY879_.jpg',
     price: 29.99,
     originalPrice: 31.99,
     rating: 4.6,
