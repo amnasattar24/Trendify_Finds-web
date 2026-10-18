@@ -3628,7 +3628,7 @@ const PRODUCTS = [
     page: 'gaming',
     title: 'Memory Storage',
     description: 'Secure your digital life with this high-capacity Memory Storage device, offering lightning-fast data transfer speeds',
-    image: 'https://m.media-amazon.com/images/I/81z9lrofwfL._AC_SX679_.jpg',
+    image: 'https://m.media-amazon.com/images/I/71gk6okbBcL._AC_SX300_SY300_QL70_FMwebp_.jpg',
     price: 174.99,
     originalPrice: 133.99,
     rating: 4.6,
