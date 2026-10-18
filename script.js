@@ -3763,7 +3763,6 @@ const PRODUCTS = [
     originalPrice: 14.99,
     rating: 4.7,
     reviews: 78432,
-    size: 11-inch,
     category: 'Desk Pads',
     affiliateLink: 'https://a.co/d/03Iz590c',
   },
